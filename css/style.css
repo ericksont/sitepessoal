@@ -1,0 +1,84 @@
+html {height: 100%;}
+body { background: url("/images/content-bg.jpg"); padding:0; margin:0;  min-height: 100%; font-size:11px; position:relative; font-family:"Trebuchet MS",Arial,Helvetica,sans-serif; color:#575454; }
+
+h3 { color: #2C2C2C; font-size: 24px; letter-spacing: -1px; line-height: 2em; margin: 0 0 13px; text-transform: uppercase; }
+h3 strong { display: block; margin-top: -18px; }
+
+p { font-size: 13px; }
+
+a { text-decoration: none;}
+.clear { clear:both; }
+
+.w100 { width: 100%; }
+.w78 { width: 78%; }
+
+#geral { min-height: 100%;  position: relative;}
+* html #geral { height: 100%; }
+
+.link-1 { color: #838585; display: inline-block; font-size: 15px; line-height: 2em; text-decoration: underline; font-style: italic;  }
+
+.border-top { background: url("/images/border-bot3.gif") repeat-x scroll center top rgba(0, 0, 0, 0); }
+
+.loader { display: none; text-align: center; margin: 30% 10px 10px; z-index: 1000; height: 74%; position: absolute; width: 101%; }
+.mensagem { display: none; text-align: center; margin: 10px; border-radius: 10px; padding-top: 20%; z-index: 1000; background: url("/images/bg_diagonals-thick_40x40.png"); height: 74%; position: absolute; width: 101%; }
+
+.message-in { display: none; border: 1px solid #ccc; margin: 10px; border-radius: 10px; font-size: 13px; font-weight: bold; }
+.message-alert { border-color: #C7A20D; background: #F5F3BA; color: 5A4701;}
+.message-success { border-color: #79C20D; background: #E2F6C5; color: #32510F;}
+.message-erro { border-color: #D20009; background: #F3D9D9; color: #7B040F;}
+
+#topo { text-align: center; background: url("/images/header-bg.jpg") repeat scroll center top; display: none; width: 100%; opacity: 0; position: relative; top: -50px;}
+#topo .topo-logo { margin: 10px; }
+
+#topo .menu { background: url("/images/menu-bg.png") repeat scroll left top; height: 50px; padding-top: 11px;}
+#topo .menu-conteudo { width: 372px; margin: 0 auto; }
+#topo .menu ul { list-style: none outside none; }
+#topo .menu ul > li { background: url("/images/menu-li.png") no-repeat scroll right 4px; float: left; padding: 0 27px 0 26px; position: relative; }
+#topo .menu ul > li.last, .content-home .home-menu ul > li.last{ padding-right: 0; background: none;  }
+#topo .menu a{ display: inline-block; font-size: 13px; line-height: 2em; color: #FFFFFF; text-transform: uppercase; }
+#topo .menu a.current,  #topo .menu a:hover, .content-home .home-menu a:hover{ color: #EF4D23;}
+
+.content-home {margin:0 auto; width:200px; position: relative; top: 150px; }
+.content-home .home-menu { padding: 11px 0 0; }
+.content-home .home-menu ul{ list-style: none outside none; padding: 0; width: 109px; margin: 0 auto; }
+.content-home .home-menu ul > li { float: left; padding: 0 2px; position: relative; }
+.content-home .home-menu  a{ display: inline-block; font-size: 13px; line-height: 2em; color: #838585; text-transform: uppercase; }
+
+.content {padding-bottom: 45px; position: relative; display: none; opacity: 0; left: 200px;}
+.content-home .home-menu img { margin: -3px 0 0; }
+
+.paginas { padding: 20px; }
+
+
+/* -- Contato -- */
+.contato {width:440px; margin:0 auto;}
+.formcontato input { box-shadow: 2px 2px 4px #DDDDDD; background: none repeat scroll 0 0 #FFFFFF; border: medium none; border-radius: 5px; color: #575454; font-family: "Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 13px; line-height: 1.25em; margin: 0; outline: medium none; padding: 9px 10px 11px 13px; }
+.formcontato textarea { background: none repeat scroll 0 0 #FFFFFF; border: medium none; border-radius: 5px; box-shadow: 2px 2px 4px #DDDDDD; color: #575454; font-family: "Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 13px; height: 150px; line-height: 1.25em; margin: 0; outline: medium none; overflow: auto; padding: 9px 10px 11px 13px; resize: none; width: 100%; }
+
+.formcontato .campo { height: 50px;}
+.formcontato form p {font-weight: bold; float: left; width: 65px; }
+
+/* -- Profile -- */
+.profile { width:800px; margin:0 auto; }
+
+/* -- Roda pé -- */	
+#rodape{ z-index: 1001; position: absolute; margin: 0; font-size:10px; font-weight: bold; background: url("/images/footer-bg.jpg"); height: 45px; width: 100%; bottom: 0; text-align:center; color: #fff; }
+#bar-rodape{ background: url("/images/footer-bar.jpg"); height: 9px; margin: 0 0 10px;}
+#rodape .indent{ margin:0 15px 0 15px}
+
+/* -- Forms -- */
+button { background: url("/images/button.jpg") repeat-x scroll left top #020202;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.5em;
+	cursor: pointer;
+	margin-top: 10px;
+	border: none;
+    padding: 1px 10px;}
+button:hover {
+    background-color: #EE4D23;
+    background-position: left bottom;
+    color: #FFFFFF;
+}
